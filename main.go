@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"math"
 	"net/http"
-	"testing"
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
@@ -63,7 +62,6 @@ var (
 )
 
 func main() {
-	testing.Init()
 	recordMetrics()
 
 	http.Handle("/metrics", promhttp.Handler())
