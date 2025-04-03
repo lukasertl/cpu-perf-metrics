@@ -1,8 +1,8 @@
 module github.com/webner/cpu-perf-metrics
 
-go 1.17
+go 1.22
 
-require github.com/prometheus/client_golang v1.11.0
+require github.com/prometheus/client_golang v1.21.1
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
